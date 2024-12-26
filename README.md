@@ -25,17 +25,27 @@ POSTGRES_HOST = "localhost"
 POSTGRES_PORT = 5432
 ```
 
-2) Build the project's docker image and execute it with the following command <br>
+2) Download the list of dependencies for your application (preferrably in a virtual environment)
+```
+pip install -r requirements.txt
+```
+
+3) Execute the entire ML pipeline using the following command
+```
+python src/ml_pipeline.py run
+```
+
+4) Build the project's docker image and execute it with the following command <br>
 ```
 docker-compose up
 ```
 <br>
 
-3) Click on one of the links shown in the output <br><br>
+5) Click on one of the links shown in the output <br><br>
 <img src="images/docker-compose_output.png" alt="Description of image" width="600">
 
-4) Enter one of the row of inputs from data/sample/sample_inputs.csv<br><br>
+6) Enter one of the row of inputs from data/sample/sample_inputs.csv<br><br>
 <img src="images/before_submission.png" alt="Description of image" width="600">
 
-5) Click the Submit button to see whether the loan will be approved or not<br><br>
+7) Click the Submit button to see whether the loan will be approved or not<br><br>
 <img src="images/after_submission.png" alt="Description of image" width="600">
