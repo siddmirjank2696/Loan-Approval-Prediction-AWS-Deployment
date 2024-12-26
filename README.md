@@ -10,7 +10,7 @@
 
 ### Description
 
-<p> This project creates an end-to-end Machine Learning pipeline to predict whether an individual's loan will be approved or not based on the details of the individual and the loan they seek. The flow of the entire pipeline along with all the tools used at each step has been explained in the image above. This project has been packaged using Docker so that anyone can execute the project without having to worry about incompatibilities in the project dependencies. The dataset used for this project is found on Kaggle.</p>
+<p> This project creates an end-to-end Machine Learning pipeline to predict whether an individual's loan will be approved or not based on the details of the individual and the loan they seek. The flow of the entire pipeline along with all the tools used at each step has been explained in the image above. This project has been packaged using Docker so that anyone can execute the project without having to worry about incompatibilities in the project dependencies. The dataset used for this project is found on <a href="https://www.kaggle.com/competitions/playground-series-s4e10/data">Kaggle</a>.</p>
 
 <br>
 
