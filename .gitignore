@@ -1,5 +1,7 @@
 .env
 .metaflow
-aws-deployment
+aws-deployment/deployment.sh
+aws-deployment/task-definition.json
+aws-deployment/siddmirjank2696@loan-approval_accessKeys.csv
 src/__pycache__
 __pycache__
