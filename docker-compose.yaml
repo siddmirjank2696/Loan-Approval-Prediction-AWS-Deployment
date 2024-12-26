@@ -1,0 +1,8 @@
+version: "3.10"
+services:
+  web:
+    build: .
+    image: siddmirjank2696/loan-approval
+    ports:
+    - "5001:5001"
+      

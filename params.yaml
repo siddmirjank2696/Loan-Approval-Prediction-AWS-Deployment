@@ -1,0 +1,21 @@
+ingest:
+  person_data_path: "data/raw/person_data.csv"
+  loan_data_path: "data/raw/loan_data.csv"
+preprocess:
+  output_data_path: "data/preprocess/train_data.csv"
+  output_label_path: "data/preprocess/train_labels.csv"
+  transformer_path: "transformers/transformer.pkl"
+train:
+  input_data_path: "data/preprocess/train_data.csv"
+  input_label_path: "data/preprocess/train_labels.csv"
+  person_data_path: "data/raw/person_data_test.csv"
+  loan_data_path: "data/raw/loan_data_test.csv"
+  transformer_path: "transformers/transformer.pkl"
+  model_path: "models/model.pkl"
+  output_path: "data/predictions/predictions.csv"
+app:
+  model_path: "models/model.pkl"
+  transformer_path: "transformers/transformer.pkl"
+  sample_path: "data/sample/sample_inputs.csv"
+  host: "0.0.0.0"
+  port: 5001

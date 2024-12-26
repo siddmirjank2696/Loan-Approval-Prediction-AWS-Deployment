@@ -1,0 +1,5 @@
+.env
+.metaflow
+aws-deployment
+src/__pycache__
+__pycache__

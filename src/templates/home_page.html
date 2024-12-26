@@ -1,0 +1,37 @@
+<html>
+    <head>
+
+        <style>
+
+            body{
+                background-color:aqua;
+                text-align: center;
+            };
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1>Loan Approval Prediction</h1>
+
+        <br>
+
+        <h2>Please enter the independent variables separated by a comma</h2>
+
+        <br><br>
+
+        <form action="{{ url_for('predict') }}">
+            <label for="data">Person Data</label>
+            <input type="text" id="data" name="data">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        {% block content %}
+
+        {% endblock %}
+
+    </body>
+</html>
